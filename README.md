@@ -1,12 +1,40 @@
-# React + Vite
+# 🛒 ShoppyGlobe - React E-commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShoppyGlobe is a basic e-commerce web application built using **React**, **Redux Toolkit**, and **React Router DOM**. It features product listings, product details, a shopping cart, search functionality, and a checkout form — all powered by real-time data from the [DummyJSON](https://dummyjson.com/) API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📦 Product listing with search functionality
+- 🔍 Product detail view using route parameters
+- 🛒 Add to cart & remove from cart with Redux state management
+- ✅ Checkout form with mock order placement
+- 🔀 React Router for navigation and dynamic routes
+- ⚡ Code splitting using `React.lazy` and `Suspense`
+- 📱 Fully responsive UI with Tailwind CSS
+- ❌ 404 page for unknown routes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Redux Toolkit
+- React Router DOM
+- Axios
+- Tailwind CSS
+- Vite (for fast bundling)
+
+---
+
+
+
+Follow these steps to run the project locally on your machine:
+1. Clone the Git Repository
+   git clone https://github.com/skwoyasali/ShoppyGlobe
+   cd ShoppyGlobe
+2. Install Dependencies Make sure you have Node.js and npm installed. Then run:
+   npm install 
+3. Start the Development Server
+   npm run dev
