@@ -1,4 +1,4 @@
-// src/pages/Checkout.jsx
+// src/Components/Checkout.jsx
 import { useDispatch, useSelector } from "react-redux";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";

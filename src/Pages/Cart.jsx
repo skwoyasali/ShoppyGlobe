@@ -1,4 +1,4 @@
-// src/components/Cart.jsx
+// src/Components/Cart.jsx
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromCart } from "../redux/cartSlice";
 import { Link } from "react-router-dom";

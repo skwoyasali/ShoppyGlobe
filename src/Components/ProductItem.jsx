@@ -1,4 +1,4 @@
-// File: src/components/ProductItem.jsx
+//src/Components/ProductItem.jsx
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { addToCart } from '../redux/cartSlice';

@@ -1,4 +1,4 @@
-// File: src/components/CartItem.jsx
+// src/Components/CartItem.jsx
 import { useDispatch } from "react-redux";
 import { removeFromCart } from "../redux/cartSlice";
 // This component represents a single cart item

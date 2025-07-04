@@ -10,9 +10,9 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProductList from "./Components/ProductList";
 
-const Checkout = lazy(()=>import("./Components/CheckOut"));
-const Cart = lazy(()=>import("./Components/Cart"));
-const ProductDetail = lazy(()=>import("./Components/ProductDetail"));
+const Checkout = lazy(()=>import("./Pages/CheckOut"));
+const Cart = lazy(()=>import("./Pages/Cart"));
+const ProductDetail = lazy(()=>import("./Pages/ProductDetail"));
 const router = createBrowserRouter([
   {
     path: "/",

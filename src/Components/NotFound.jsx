@@ -1,4 +1,4 @@
-
+//src/Components/NotFound.jsx
 import { Link } from 'react-router-dom';
 // This component is displayed for undefined routes (404 error)
 function NotFound() {

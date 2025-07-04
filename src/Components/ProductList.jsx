@@ -1,4 +1,4 @@
-// ProductList.jsx
+// src/Components/ProductList.jsx
 
 import ProductItem from "./ProductItem";
 import { useDispatch, useSelector } from "react-redux";

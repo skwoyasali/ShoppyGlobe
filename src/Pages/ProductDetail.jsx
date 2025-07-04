@@ -1,4 +1,4 @@
-// File: src/components/ProductDetail.jsx
+//src/Components/ProductDetail.jsx
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
