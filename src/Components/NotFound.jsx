@@ -8,7 +8,7 @@ function NotFound() {
       <h2 className="text-2xl font-semibold mb-2">Page Not Found</h2>
       <p className="text-lg mb-6">Sorry, the page you're looking for doesn't exist.</p>
       <Link
-        to="/"
+        to="/ShoppyGlobe"
         className="bg-blue-600 text-white px-5 py-2 rounded hover:bg-blue-700 transition duration-200"
       >
         Go to Home

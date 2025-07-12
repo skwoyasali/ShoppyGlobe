@@ -15,7 +15,7 @@ const Cart = lazy(()=>import("./Pages/Cart"));
 const ProductDetail = lazy(()=>import("./Pages/ProductDetail"));
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/ShoppyGlobe/",
     element: <App />,
     children: [
       {

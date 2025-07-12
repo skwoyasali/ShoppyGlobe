@@ -59,7 +59,7 @@ export default function Cart() {
             Total: ₹{total.toFixed(2)}
           </div>
           <div className="mt-6 flex justify-end">
-            <Link to="/checkout">
+            <Link to="/ShoppyGlobe/checkout">
               <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded">
                 Proceed to Checkout
               </button>

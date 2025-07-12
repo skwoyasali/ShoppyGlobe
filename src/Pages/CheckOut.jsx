@@ -34,7 +34,7 @@ export default function Checkout() {
    // Clear cart after successful order
     dispatch(emptyCart());
     // Redirect to home
-    navigate("/");
+    navigate("/ShoppyGlobe");
   };
 
   // If cart is empty, show message

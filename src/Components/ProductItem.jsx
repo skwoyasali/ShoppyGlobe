@@ -9,7 +9,7 @@ export default function ProductItem({ product }) {
 
   return (
     <div className="border rounded-lg p-4 shadow hover:shadow-lg transition">
-      <Link to={`/product/${product.id}`}>
+      <Link to={`/ShoppyGlobe/product/${product.id}`}>
         <img src={product.thumbnail} alt={product.title} className="w-full h-48 object-cover mb-2 rounded" />
         <h2 className="font-bold text-lg mb-1">{product.title}</h2>
         <p className="text-sm text-gray-700 mb-2">{product.description}</p>
